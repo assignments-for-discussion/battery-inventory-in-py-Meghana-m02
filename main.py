@@ -32,5 +32,6 @@ def test_bucketing_by_health():
   assert(counts["failed"] == 1)
   print("Done counting :)")
 
+if _name_ == '_main_':
+  test_bucketing_by_health()
 
-test_bucketing_by_health()
